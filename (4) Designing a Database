@@ -1,0 +1,26 @@
+/* Create your own store! Your store should sell one type of things, like clothing or bikes, whatever you want your store to specialize in. 
+You should have a table for all the items in your store, and at least 5 columns for the kind of data you think you'd need to store. 
+You should sell at least 15 items, and use select statements to order your items by price and show at least one statistic about the items.
+*/
+
+CREATE TABLE car_store (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER, colour TEXT);
+
+INSERT INTO car_store VALUES (1, "kia", 2, 2000, "red");
+INSERT INTO car_store VALUES (2, "ford", 5, 4000, "blue");
+INSERT INTO car_store VALUES (3, "BMW", 1, 8000, "black");
+INSERT INTO car_store VALUES (4, "fiat", 2, 3000, "blue");
+INSERT INTO car_store VALUES (5, "mercedes", 4, 9000, "grey");
+INSERT INTO car_store VALUES (6, "volkswagon", 3, 5000, "grey");
+INSERT INTO car_store VALUES (7, "seat", 1, 3000, "blue");
+INSERT INTO car_store VALUES (8, "hyundai", 4, 2000, "grey");
+INSERT INTO car_store VALUES (9, "peageot", 2, 2000, "red");
+INSERT INTO car_store VALUES (10, "citroen", 1, 2000, "green");
+INSERT INTO car_store VALUES (11, "cadillac", 1, 6000, "black");
+INSERT INTO car_store VALUES (12, "volvo", 3, 6000, "grey");
+INSERT INTO car_store VALUES (13, "toyota", 6, 4000, "black");
+INSERT INTO car_store VALUES (14, "smart", 1, 2000, "blue");
+INSERT INTO car_store VALUES (15, "honda", 6, 3000, "black");
+
+SELECT * FROM car_store ORDER BY price
+
+SELECT colour, SUM(quantity) FROM car_store GROUP BY colour
