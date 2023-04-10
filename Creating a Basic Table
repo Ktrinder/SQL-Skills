@@ -1,0 +1,11 @@
+/*Challenge: Book List Database
+
+Create a table to store a list of books. It should have columns for id, name, and rating. 
+Add three books into the table.
+ANSWER*/
+
+CREATE TABLE Books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO Books VALUES (1, "To kill a mockingbird", 9);
+INSERT INTO Books VALUES (2, "Charlie and the chocolate factory", 7);
+INSERT INTO Books VALUES (3, "Meditations", 8);
