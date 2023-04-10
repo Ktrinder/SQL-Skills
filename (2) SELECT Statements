@@ -5,6 +5,7 @@ In this challenge, you're going to get the results back out of the database in d
 */
 
 CREATE TABLE movies (id INTEGER PRIMARY KEY, name TEXT, release_year INTEGER);
+
 INSERT INTO movies VALUES (1, "Avatar", 2009);
 INSERT INTO movies VALUES (2, "Titanic", 1997);
 INSERT INTO movies VALUES (3, "Star Wars: Episode IV - A New Hope", 1977);
