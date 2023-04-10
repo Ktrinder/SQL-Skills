@@ -1,7 +1,7 @@
 # SQL-Skills
 This repository contains SQL Skills I have practiced including:
 
-SQL Basics
+SQL Basics (1-4)
 
 More Advanced SQL Queries
 
