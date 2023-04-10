@@ -9,4 +9,4 @@ Relational Queries in SQL
 
 Modifying Databases with SQL
 
-*These excercises have been cempleted through the Khan Academy: Intro to SQL: Querying and Managing Data Course*
+*These exercises have been completed through the Khan Academy: Intro to SQL: Querying and Managing Data Course*
