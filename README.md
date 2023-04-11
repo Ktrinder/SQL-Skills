@@ -3,7 +3,7 @@ This repository contains SQL Skills I have practiced including:
 
 SQL Basics (1-4)
 
-More Advanced SQL Queries
+More Advanced SQL Queries (5-9)
 
 Relational Queries in SQL
 
